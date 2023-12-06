@@ -1,30 +1,30 @@
 import { ReactComponent as ButtonRemove } from "../img/btn-remove.svg";
-import sneakersImage1 from "../img/sneakers/image 1.jpg";
+
 import { ReactComponent as Arrow } from "../img/arrow.svg";
-function Drawer() {
+
+function Drawer({ onClose, items = [] }) {
+  console.log(ButtonRemove);
   return (
-    <div className="overlay" style={{ display: "none" }}>
+    <div className="overlay">
       <div className="drawer">
         <div className="drawerTop">
           <h2>Корзина</h2>
-          <ButtonRemove />
+          <ButtonRemove onClick={onClose} />
+          {console.log(ButtonRemove)}
         </div>
         <div className="items">
-          <div className="cartItem">
-            <img
-              src={sneakersImage1}
-              alt="sneakers"
-              width={70}
-              height={70}
-            ></img>
-            <div className="cartItemSide">
-              <p>Мужские Кроссовки Nike Blazer Mid Suede</p>
-              <strong>12 999 руб.</strong>
+          {items.map((items) => (
+            <div className="cartItem">
+              <img src={items.img} alt="sneakers" width={70} height={70}></img>
+              <div className="cartItemSide">
+                <p>{items.name}</p>
+                <strong>{items.price} руб.</strong>
+              </div>
+              <div className="btnRemove">
+                <ButtonRemove />
+              </div>
             </div>
-            <div className="btnRemove">
-              <ButtonRemove />
-            </div>
-          </div>
+          ))}
         </div>
         <div className="cartTotalBlock">
           <ul>
