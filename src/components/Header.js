@@ -12,7 +12,7 @@ function Header(props) {
   return (
     <header>
       <div className="headerLeft">
-        <Link to="/">
+        <Link to="react-pet-sneakers">
           <Logo />
           <div className="headerInfo">
             <h3>REACT SNEAKERS</h3>

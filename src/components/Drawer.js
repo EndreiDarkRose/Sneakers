@@ -1,7 +1,6 @@
 import React from "react";
 import Info from "./Card/Info";
 import axios from "axios";
-import { AppContext } from "../App";
 
 import { ReactComponent as ButtonRemove } from "../img/btn-remove.svg";
 import { ReactComponent as Arrow } from "../img/arrow.svg";
