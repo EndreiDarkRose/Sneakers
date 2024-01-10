@@ -165,7 +165,7 @@ function App() {
         <Header onClickBasket={() => setCartOpened(true)} />
         <Routes>
           <Route
-            path="/"
+            path=""
             exact
             element={
               <Home

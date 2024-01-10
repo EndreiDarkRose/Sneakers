@@ -12,7 +12,7 @@ function Header(props) {
   return (
     <header>
       <div className="headerLeft">
-        <Link to="/">
+        <Link to="">
           <Logo />
           <div className="headerInfo">
             <h3>REACT SNEAKERS</h3>
@@ -25,13 +25,13 @@ function Header(props) {
           <Basket />
           {totalPrice} руб.
         </li>
-        <Link to="/favorites">
+        <Link to="favorites">
           <li>
             <Favorite />
             Закладки
           </li>
         </Link>
-        <Link to="/orders">
+        <Link to="orders">
           <li>
             <User />
             Профиль
