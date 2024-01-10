@@ -27,12 +27,19 @@ body {
   }
 
   .headerLeft {
-    display: flex;
-    align-items: center;
-    gap: 10px;
     h3,
     p {
       margin: 0;
+    }
+    a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #000;
+      p {
+        opacity: 50%;
+      }
     }
   }
 
@@ -255,6 +262,44 @@ body {
       display: flex;
       flex-wrap: wrap;
       gap: 37px;
+
+      .emptyCart {
+        text-align: center;
+        margin: 15% auto;
+
+        p {
+          opacity: 0.4;
+          width: 285px;
+          text-align: center;
+          margin: 10px auto;
+        }
+        button {
+          margin-top: 20px;
+          width: 100%;
+          height: 55px;
+          border-radius: 18px;
+          background: #9dd458;
+          border: 0;
+          color: #fff;
+
+          text-align: center;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: 0.1s ease-in-out;
+          position: relative;
+          &:hover {
+            background: lighten($color: #9dd458, $amount: 5%);
+            svg {
+              transform: translateX(5px);
+            }
+          }
+
+          &:active {
+            background: darken($color: #9dd458, $amount: 5%);
+          }
+        }
+      }
     }
     .content-top {
       display: flex;

@@ -1,35 +1,40 @@
 import React from "react";
+import { AppContext } from "../../App";
 import { ReactComponent as FavoriteUnlike } from "../../img/favorite-unliked.svg";
 import { ReactComponent as Favorite } from "../../img/favorite-liked.svg";
-
 import { ReactComponent as ButtonAdd } from "../../img/ButtonAdd.svg";
-
 import { ReactComponent as ButtonChecked } from "../../img/btnChecked.svg";
 
 import styles from "./Card.module.scss";
 
-function Card({ img, name, id, price, onFavorite, onPlus }) {
-  const [isAdded, setIsAdded] = React.useState(false);
-  const [addFavorite, setOnFavorite] = React.useState(false);
+function Card({
+  img,
+  name,
+  id,
+  price,
+  onAddToFavorite,
+  onAddToCard,
+  renderFavoritesAndCard = true,
+}) {
+  const { hasCardItem, hasFavoriteItem } = React.useContext(AppContext);
+  const itemObj = { img, name, price, id, parentId: id };
 
   const onClickPlus = () => {
-    onPlus({ img, name, price, id });
-
-    setIsAdded(!isAdded);
+    onAddToCard(itemObj);
+    console.log(itemObj.id);
   };
 
   const onClickFavorite = () => {
-    setOnFavorite(!addFavorite);
-    onFavorite({ img, name, price, id });
+    onAddToFavorite(itemObj);
   };
 
-  const favorite = addFavorite ? (
+  const favorite = hasFavoriteItem(id) ? (
     <Favorite alt="like" onClick={onClickFavorite} />
   ) : (
     <FavoriteUnlike alt="unlike" onClick={onClickFavorite} />
   );
 
-  const buttonComponent = isAdded ? (
+  const addToCard = hasCardItem(id) ? (
     <ButtonChecked className={styles.buttonAdd} onClick={onClickPlus} />
   ) : (
     <ButtonAdd className={styles.buttonAdd} onClick={onClickPlus} />
@@ -37,7 +42,9 @@ function Card({ img, name, id, price, onFavorite, onPlus }) {
 
   return (
     <div className={styles.card}>
-      <div className={styles.favorite}>{favorite}</div>
+      <div className={styles.favorite}>
+        {renderFavoritesAndCard && favorite}
+      </div>
       <img src={img} alt="sneakers" width={133} height={112}></img>
       <h5>{name}</h5>
       <div className={styles.cardBottom}>
@@ -45,7 +52,7 @@ function Card({ img, name, id, price, onFavorite, onPlus }) {
           <p>ЦЕНА:</p>
           <b>{price} руб.</b>
         </div>
-        {buttonComponent}
+        {renderFavoritesAndCard && addToCard}
       </div>
     </div>
   );
