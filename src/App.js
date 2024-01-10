@@ -165,7 +165,7 @@ function App() {
         <Header onClickBasket={() => setCartOpened(true)} />
         <Routes>
           <Route
-            path="react-pet-sneakers"
+            path="/"
             exact
             element={
               <Home
