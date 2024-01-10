@@ -163,7 +163,6 @@ function App() {
           />
         ) : null}
         <Header onClickBasket={() => setCartOpened(true)} />
-
         <Routes>
           <Route
             path="react-pet-sneakers"

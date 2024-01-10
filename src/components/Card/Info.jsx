@@ -7,7 +7,7 @@ export const Info = ({ title, description, image }) => {
       <img src={image}></img>
       <h1>{title}</h1>
       <p>{description}</p>
-      <Link to="react-pet-sneakers">
+      <Link to="/react-pet-sneakers">
         <button>Вернуться назад</button>
       </Link>
     </div>
