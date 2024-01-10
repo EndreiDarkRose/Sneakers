@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-pet-sneakers/static/css/main.5b28d075.css",
-    "main.js": "/react-pet-sneakers/static/js/main.78ddebcc.js",
+    "main.js": "/react-pet-sneakers/static/js/main.9a16abf8.js",
     "static/media/logo.svg": "/react-pet-sneakers/static/media/logo.900f3b6ba11176ccf046e12bd0ef25df.svg",
-    "static/media/image 2.jpg": "/react-pet-sneakers/static/media/image 2.6cd1ce77c49c35a4d999.jpg",
-    "static/media/image 9.jpg": "/react-pet-sneakers/static/media/image 9.f584f6aad967d5ba5467.jpg",
-    "static/media/image 11.png": "/react-pet-sneakers/static/media/image 11.fc1a53a86f322e40880a.png",
-    "static/media/image 4.jpg": "/react-pet-sneakers/static/media/image 4.fc1a53a86f322e40880a.jpg",
-    "static/media/image 8.jpg": "/react-pet-sneakers/static/media/image 8.7b456475b5017a8594a0.jpg",
-    "static/media/image 5.jpg": "/react-pet-sneakers/static/media/image 5.2bd6dbde0c9136ca93ad.jpg",
-    "static/media/image 10.png": "/react-pet-sneakers/static/media/image 10.aa5fa3ca1b72613cd8ef.png",
-    "static/media/image 12.jpg": "/react-pet-sneakers/static/media/image 12.35c1a6e0c1ff254f2d0e.jpg",
-    "static/media/image 3.jpg": "/react-pet-sneakers/static/media/image 3.b354c44ed9a95921020b.jpg",
-    "static/media/image 7.jpg": "/react-pet-sneakers/static/media/image 7.89f311d1b50da48f3b45.jpg",
-    "static/media/image 6.jpg": "/react-pet-sneakers/static/media/image 6.298d1e9a232d4f759460.jpg",
-    "static/media/image 1.jpg": "/react-pet-sneakers/static/media/image 1.963a04cb9df699963346.jpg",
+    "static/media/image2.jpg": "/react-pet-sneakers/static/media/image2.6cd1ce77c49c35a4d999.jpg",
+    "static/media/image9.jpg": "/react-pet-sneakers/static/media/image9.f584f6aad967d5ba5467.jpg",
+    "static/media/image11.png": "/react-pet-sneakers/static/media/image11.fc1a53a86f322e40880a.png",
+    "static/media/image4.jpg": "/react-pet-sneakers/static/media/image4.fc1a53a86f322e40880a.jpg",
+    "static/media/image8.jpg": "/react-pet-sneakers/static/media/image8.7b456475b5017a8594a0.jpg",
+    "static/media/image5.jpg": "/react-pet-sneakers/static/media/image5.2bd6dbde0c9136ca93ad.jpg",
+    "static/media/image10.png": "/react-pet-sneakers/static/media/image10.aa5fa3ca1b72613cd8ef.png",
+    "static/media/image12.jpg": "/react-pet-sneakers/static/media/image12.35c1a6e0c1ff254f2d0e.jpg",
+    "static/media/image3.jpg": "/react-pet-sneakers/static/media/image3.b354c44ed9a95921020b.jpg",
+    "static/media/image7.jpg": "/react-pet-sneakers/static/media/image7.89f311d1b50da48f3b45.jpg",
+    "static/media/image6.jpg": "/react-pet-sneakers/static/media/image6.298d1e9a232d4f759460.jpg",
+    "static/media/image1.jpg": "/react-pet-sneakers/static/media/image1.963a04cb9df699963346.jpg",
     "static/media/btnChecked.svg": "/react-pet-sneakers/static/media/btnChecked.890c21e6e092e231b04d7f8d3b23767a.svg",
     "static/media/favorite.svg": "/react-pet-sneakers/static/media/favorite.ba048a2818a88b1370c1066cd0371980.svg",
     "static/media/user.svg": "/react-pet-sneakers/static/media/user.88bb738f3b355f05e07044b8923fa613.svg",
@@ -27,10 +27,10 @@
     "static/media/ButtonAdd.svg": "/react-pet-sneakers/static/media/ButtonAdd.bbfd4c1cbcca74899f2e23d55760d184.svg",
     "static/media/arrow.svg": "/react-pet-sneakers/static/media/arrow.5ece327e3ad1547c2fbb9133a0918be4.svg",
     "main.5b28d075.css.map": "/react-pet-sneakers/static/css/main.5b28d075.css.map",
-    "main.78ddebcc.js.map": "/react-pet-sneakers/static/js/main.78ddebcc.js.map"
+    "main.9a16abf8.js.map": "/react-pet-sneakers/static/js/main.9a16abf8.js.map"
   },
   "entrypoints": [
     "static/css/main.5b28d075.css",
-    "static/js/main.78ddebcc.js"
+    "static/js/main.9a16abf8.js"
   ]
 }
