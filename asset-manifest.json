@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-pet-sneakers/static/css/main.5b28d075.css",
-    "main.js": "/react-pet-sneakers/static/js/main.4495285a.js",
+    "main.css": "/react-pet-sneakers/static/css/main.fc2bfa12.css",
+    "main.js": "/react-pet-sneakers/static/js/main.1a5bce93.js",
     "static/media/logo.svg": "/react-pet-sneakers/static/media/logo.900f3b6ba11176ccf046e12bd0ef25df.svg",
     "static/media/image2.jpg": "/react-pet-sneakers/static/media/image2.6cd1ce77c49c35a4d999.jpg",
     "static/media/image9.jpg": "/react-pet-sneakers/static/media/image9.f584f6aad967d5ba5467.jpg",
@@ -26,11 +26,11 @@
     "static/media/search.svg": "/react-pet-sneakers/static/media/search.eed654da40378bb94b3d1b607448e6a2.svg",
     "static/media/ButtonAdd.svg": "/react-pet-sneakers/static/media/ButtonAdd.bbfd4c1cbcca74899f2e23d55760d184.svg",
     "static/media/arrow.svg": "/react-pet-sneakers/static/media/arrow.5ece327e3ad1547c2fbb9133a0918be4.svg",
-    "main.5b28d075.css.map": "/react-pet-sneakers/static/css/main.5b28d075.css.map",
-    "main.4495285a.js.map": "/react-pet-sneakers/static/js/main.4495285a.js.map"
+    "main.fc2bfa12.css.map": "/react-pet-sneakers/static/css/main.fc2bfa12.css.map",
+    "main.1a5bce93.js.map": "/react-pet-sneakers/static/js/main.1a5bce93.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b28d075.css",
-    "static/js/main.4495285a.js"
+    "static/css/main.fc2bfa12.css",
+    "static/js/main.1a5bce93.js"
   ]
 }
